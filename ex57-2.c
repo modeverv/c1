@@ -24,17 +24,17 @@ int main(void)
 
 int is_prime(int a)
 {
-	int f = 1;
-	int i;
+    int f = 1;
+    int i;
 
-	for (i = 2; i < a; ++i)
-	{
-		if (a % i == 0)
-		{
-			f = 0;
-			break;
-		}
-	}
+    for (i = 2; i < a; ++i)
+    {
+        if (a % i == 0)
+        {
+            f = 0;
+            break;
+        }
+    }
 
-	return f;
+    return f;
 }

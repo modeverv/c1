@@ -8,7 +8,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: adv01
+# Project: c1
 # Configurations: Debug
 # =============================================================================
 
@@ -68,37 +68,6 @@ build c1: C_EXECUTABLE_LINKER__c1_Debug CMakeFiles/c1.dir/main.c.o
   TARGET_FILE = c1
   TARGET_PDB = c1.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target adv01
-
-
-#############################################
-# Order-only phony target for adv01
-
-build cmake_object_order_depends_target_adv01: phony || CMakeFiles/adv01.dir
-
-build CMakeFiles/adv01.dir/adv01.c.o: C_COMPILER__adv01_Debug /Users/seijiro/work/me/c/c1/adv01.c || cmake_object_order_depends_target_adv01
-  DEP_FILE = CMakeFiles/adv01.dir/adv01.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/adv01.dir
-  OBJECT_FILE_DIR = CMakeFiles/adv01.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target adv01
-
-
-#############################################
-# Link the executable adv01
-
-build adv01: C_EXECUTABLE_LINKER__adv01_Debug CMakeFiles/adv01.dir/adv01.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/adv01.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = adv01
-  TARGET_PDB = adv01.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -133,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/seijiro/work/me/c/c1/cmake-build-debug
 
-build all: phony c1 adv01
+build all: phony c1
 
 # =============================================================================
 # Built-in targets

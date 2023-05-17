@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "adv01"
+			"value" : "c1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
